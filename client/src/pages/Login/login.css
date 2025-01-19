@@ -1,0 +1,9 @@
+.login {
+    padding: 10%;
+    max-width: 90% !important;
+    background-image: url("../../../public/pexels-rdne-6646918.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility:.5 ;
+    color: black !important;
+}

@@ -1,0 +1,30 @@
+.addUser{
+    margin-top: -2%;
+    max-width: 80% !important;
+}
+.addUser .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+ol li{
+    padding: 20px !important;
+    font-weight: bold;
+    font-size:18px !important;
+    cursor: pointer !important;
+}
+@media only screen and (max-width:560px){
+    .addUser .flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            flex-direction: column;
+            width: 85vw;
+        }
+        button{
+            width: 85vw;            
+        }
+}
