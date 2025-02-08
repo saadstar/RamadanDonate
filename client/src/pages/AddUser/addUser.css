@@ -1,6 +1,6 @@
 .addUser{
     margin-top: -2%;
-    max-width: 80% !important;
+    max-width: 80% !important;    
 }
 .addUser .flex{
     display: flex;
@@ -16,15 +16,20 @@ ol li{
     cursor: pointer !important;
 }
 @media only screen and (max-width:560px){
+    .addUser{
+        padding: 0px 0px 0px 0px;
+        margin: 0px !important;
+    }
     .addUser .flex {
             display: flex;
             align-items: center;
             justify-content: space-between;
             gap: 20px;
             flex-direction: column;
-            width: 85vw;
+            width: 80vw !important;
+            margin-bottom: 5px;
         }
         button{
-            width: 85vw;            
+            width: 80vw !important; 
         }
 }

@@ -94,6 +94,12 @@
     align-items: center;
     flex-direction: column !important;
   }
+    .dashboard>:nth-child(2) {
+      display: none;
+    }
+    .dashboard {
+      width: 83%;
+    }
   .dashboardHead .cards{
     display: flex;
     gap: 1rem;

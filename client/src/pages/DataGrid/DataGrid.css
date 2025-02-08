@@ -64,25 +64,21 @@
 }
 @media screen and (max-width:550px) {
     .table-container {
-        padding: 1rem;
+        padding: 0rem;
     }
-        .headerFlex {
-            display: flex;
-            align-items: center;
-            justify-content:flex-start;
-            margin-right: 0px;
+        .headerFlex {          
             gap: 1rem;
         }
     .leftHeader{
-        gap: 1rem;
+        gap: 0rem !important;
     }
     .leftHeader h2{
         font-size: 25px;
     }
         .headerFlex .btn-flex {
             padding: 5px 10px;
-            border-radius: 5px;
-            font-size: 17px;
+            border-radius: 20px;
+            font-size: 12px;
             font-weight: bold;
             margin-left: 3rem;
         }

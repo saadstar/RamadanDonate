@@ -89,7 +89,7 @@
 }
 .content>div{
     width: 100%;
-    min-width: 75vh
+    min-width: 80vw;
 }
 
 @media only screen  and (max-width:650px){

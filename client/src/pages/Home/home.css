@@ -1,3 +1,4 @@
+
 .home{
     display: flex;
     flex-direction: column;
@@ -87,6 +88,7 @@
     gap: 10px;
     transition: var(--transition-2);
     cursor: pointer;
+    justify-content: center;
 }
 
 .home .btn i {
@@ -131,10 +133,8 @@
 .hero {
     background-color: var(--eerie-black-1);
     color: var(--white);
-    /* min-height: 700px; */
-    /* padding-block: 80px; */
     display: grid;
-    background-image: url("./home.png");
+    background-image: url("../../../public/home.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;
@@ -474,6 +474,54 @@ li{
 @media (max-width: 550px){
     .testi-text{
             margin: 0px 0px;                
-                padding-left: 40%;
+                padding-left: 45%;
     }
+        .testi-banner {
+            margin: 0;
+        }
+    .home .homeContainer{
+        padding: 2% !important;
+    }
+    .hero-title{
+        font-size: 45px;
+    }
+        .hero-text{
+            font-size: 23px;
+            width: 84%;
+        }
+                .features-list {
+                    padding: 0;
+                }
+        .features-item {
+            gap: 3px;
+        }
+                .features-item .item-icon {
+                    display: none;
+                }
+                                .features-item .item-title {                                    
+                                    font-size: 16px;                                    
+                                }
+                                                                .features-item .item-text {                                                                   
+                                                                    font-size: 9px;
+                                                                }
+        .tab-nav {
+            padding: 5px;
+        }
+        .tab-content .section-text{
+            width: 51%;
+                padding: 0px 1rem
+        }
+                .partner .container {
+                    display: grid;
+                    padding: 20px 5px;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 10px;
+                }
+                .container .partner-logo{
+                    width: 40vw;
+                }
+                                .partner-logo .gray {
+                                    display: block;
+                                    width: 100%;
+                                }
 }

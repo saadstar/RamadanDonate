@@ -1,7 +1,7 @@
 import { fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 const customBaseQuery = fetchBaseQuery({
-  baseUrl: "http://localhost:8080/api/",
+  baseUrl: "https://api.ramadonate.icu/api/",
   prepareHeaders: (headers, { getState }) => {
     // Retrieve the token from Redux state
     const user = getState().auth.user?.data;    
